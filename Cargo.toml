@@ -1,6 +1,7 @@
-[package]
-name = "wasmtime-bday-fun"
-version = "0.1.0"
-edition = "2021"
+[workspace]
 
-[dependencies]
+resolver = "2"
+members = [
+  "sim",
+  "example",
+]
